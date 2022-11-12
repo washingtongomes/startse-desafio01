@@ -7,19 +7,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="./images/icon01.png"/>
         <link rel="stylesheet" href="style.css" />
-        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
+
         <title>StartSe</title>
     </head>
 
     <body>
         <nav>
+           
             <header>MEU NOME</header>
-            <section class="nav-items">
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu 
+                <p id="p-menu">Menu</p>
+            <section id="items"
+            class="nav-items">
+
                 <a href=# class="navitems">Home</a>
                 <a href=#sobre class="navitems">Sobre</a>
                 <a href=#form class="navitems">Formulário</a>
-            </section>
+           
+            </section> 
+        </i>
+
         </nav>
+ 
+
+
         <section id="home">
             <div class="container">
                 <div class="column-left">
@@ -120,6 +133,19 @@
 
         </section>
 
+
+
+           <script>
+            function clickMenu(){
+                if (items.style.display == "block"){
+                    items.style.display = "none"
+                }
+                else{
+                    items.style.display = "block"
+
+                }
+            }
+           </script> 
     </body>
 
 </html>
