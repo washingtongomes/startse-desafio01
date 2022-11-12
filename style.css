@@ -172,3 +172,8 @@ textarea {
 #home {
     background: #fdcc04;
 }
+
+.obrigatorio{
+ color: #fdcc04;
+ opacity: 0.9;
+}

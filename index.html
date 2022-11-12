@@ -39,29 +39,29 @@
         <form id="form" action="http://google.com">
             <section>
                 <h2>Formulário de Interesses</h2>
-                <p>Digite seu nome:
+                <p>Digite seu nome: <span class= "obrigatorio"> (*) campo obrigatorio</span>
                     <input type="text" name="userName" size=40 maxlength=40
-                        placeholder="Digite seu nome completo">
+                        placeholder="Digite seu nome completo" required>
                 </p>
-                <p>Digite sua profissão:
+                <p>Digite sua profissão: <span class= "obrigatorio"> (*) campo obrigatorio</span>
                     <input type="text" name="userJob" size=40 maxlength=40
-                        placeholder="Digite sua profissão">
+                        placeholder="Digite sua profissão" required>
                 </p>
-                <p>Nos conte um pouquinho sobre você:
-                    <textarea name="userComment" cols="30" rows="4"></textarea>
+                <p>Nos conte um pouquinho sobre você: <span class= "obrigatorio"> (*) campo obrigatorio</span>
+                    <textarea name="userComment" cols="30" rows="4" required></textarea>
                 </p>
                 <p>Você faz exercícios regularmente?
                     <input type="radio" name="exercise" value=1>Sim
                     <input type="radio" name="exercise" value=2>Não
                 </p>
-                <p>Por onde você lê sobre seus tópicos favoritos?
+                <p>Por onde você lê sobre seus tópicos favoritos? 
                     <input type="checkbox" name="Books">Livros
                     <input type="checkbox" name="Web">Sites
                     <input type="checkbox" name="Apps">Aplicativos
                     <input type="checkbox" name="Magazines">Revistas
                 </p>
-                <p>Qual gênero de filmes que você mais gosta?
-                    <select name="moviePref">
+                <p>Qual gênero de filmes que você mais gosta? <span class= "obrigatorio"> (*) campo obrigatorio</span>
+                    <select name="moviePref" required>
                         <option></option>
                         <option value=1>Comédia</option>
                         <option value=2>Romance</option>
