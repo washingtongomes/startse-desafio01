@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Minha página</title>
+    </head>
+
+    <body>
+        <nav>
+            <header>MEU NOME</header>
+            <section class="nav-items">
+                <a href=# class="navitems">Home</a>
+                <a href=#sobre class="navitems">Sobre</a>
+                <a href=#form class="navitems">Formulário</a>
+            </section>
+        </nav>
+        <section id="home">
+            <div class="container">
+                <div class="column-left">
+                    <h1>Só projetos incríveis</h1>
+                    <p>
+                        Entre em contato pelo formulário para saber mais sobre
+                        aplicações de excelência.
+                    </p>
+                    <a id="CTA-button" href=#form>Comece agora!</a>
+                </div>
+                <div class="column-right">
+                    <img src="./image.gif" alt="illustration" id="home-image" />
+                </div>
+            </div>
+        </section>
+        <form id="form" action="http://google.com">
+
+            <section>
+                <h2>Formulário de Interesses</h2>
+                <p>Digite seu nome:
+                    <input type="text" name="userName" size=40 maxlength=40
+                        placeholder="Digite seu nome completo">
+                </p>
+                <p>Digite sua profissão:
+                    <input type="text" name="userJob" size=40 maxlength=40
+                        placeholder="Digite sua profissão">
+                </p>
+                <p>Nos conte um pouquinho sobre você:
+                    <textarea name="userComment" cols="30" rows="4"></textarea>
+                </p>
+                <p>Você faz exercícios regularmente?
+                    <input type="radio" name="exercise" value=1>Sim
+                    <input type="radio" name="exercise" value=2>Não
+                </p>
+                <p>Por onde você lê sobre seus tópicos favoritos?
+                    <input type="checkbox" name="Books">Livros
+                    <input type="checkbox" name="Web">Sites
+                    <input type="checkbox" name="Apps">Aplicativos
+                    <input type="checkbox" name="Magazines">Revistas
+                </p>
+                <p>Qual gênero de filmes que você mais gosta?
+                    <select name="moviePref">
+                        <option></option>
+                        <option value=1>Comédia</option>
+                        <option value=2>Romance</option>
+                        <option value=3>Drama</option>
+                        <option value=4>Terror</option>
+                        <option value=5>Ação</option>
+                    </select>
+                    <br>
+
+                </p>
+
+
+            </section>
+            <input id="form-button" type=submit value="ENVIAR">
+            <a href=# id="form-button">Topo</a>
+
+
+
+        </form>
+
+
+        <section id="sobre">
+            <div class="container">
+                <div class="column-sobre">
+                    <h1>Desafio StartSe - Pagina Sobre </h1>
+
+                    <p id="P1-sobre">
+                        Entendemos Educação Executiva de uma forma diferente,
+                        porque somos nascidos na Nova Economia.
+                        Acreditamos no conhecimento transformador da velocidade
+                        do Agora.
+                        Nós não ensinamos sobre um passado que ouvimos falar,
+                        nós ensinamos sobre esse Agora que testemunhamos de
+                        perto todos os dias, nos principais centros de inovação,
+                        tecnologia e empreendedorismo do mundo.
+
+                    </p>
+                    <p id="P2-sobre">
+
+                        Mais do que teorias acadêmicas, você encontrará
+                        inspiração e vivência para uma tomada de decisão
+                        disruptiva.
+                        Mais do que cases do passado, você encontrará insights
+                        atuais e ferramentas tão importantes que podem valer o
+                        destino do seu negócio.
+                        Milhares de executivos já passaram por nossos programas
+                        e saíram de uma posição defensiva de observação para uma
+                        posição de decisão e transformação de seus negócios.
+                    </p>
+
+                    <br><br><br>
+                    <a href=# id="form-button">Topo</a>
+                </div>
+
+                <iframe width="889" height="500"
+                    src="https://www.youtube.com/embed/c2lEob20ppI"
+                    title="StartSe University | StartSe"
+                    frameborder="0" allow="accelerometer; autoplay;
+                    clipboard-write; encrypted-media; gyroscope;
+                    picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+    </body>
+
+</html>
