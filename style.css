@@ -6,6 +6,7 @@
         'Lucida Sans', Arial, sans-serif;
 }
 
+
 p {
     padding: 10px;
 }
@@ -48,28 +49,28 @@ i#burguer:hover{
 
 
 nav {
-    height: 80px;
     background: #fdcc04;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 15vw;
+    padding: 0rem 10vw;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 
 header {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    font-style: italic;
-    padding: 0 2rem;
+    padding: 0;
+    width: auto;
+    color: brown;
 }
 
 h2 {
     margin-bottom: 60px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
@@ -93,7 +94,6 @@ nav a:hover {
 form {
     display: flex;
     align-self: center;
-
     background-color: #222222;
     color: #fff;
     padding: 10vh 30vw;
@@ -110,7 +110,6 @@ textarea {
 
 
 #form-button{
-    
     width: auto;
     height: 50px;
     font-weight: bold;
@@ -119,10 +118,13 @@ textarea {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
     height: 100vh;
-    padding: 8rem 10vw;
+    padding: 4rem 10vw;
     margin-bottom: 10px;
+
+
 }
 
 .column-left {
@@ -178,7 +180,7 @@ textarea {
 
 #CTA-button {
     padding: 1rem 3rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border: none;
     color: #fdcc04;
     background: #222222;
@@ -202,3 +204,62 @@ textarea {
  color: #fdcc04;
  opacity: 0.9;
 }
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 75%;
+    }
+    img{
+        max-width: 50vw;
+
+    }
+}
+
+@media screen and (max-width: 630px){
+   html {
+    flex-direction: column;
+    
+    }
+    
+   a#form-button{
+    position: absolute;
+    margin: -50px -150px ;
+    align-items: initial;
+   }
+
+   input#form-button{
+    position: absolute;
+    margin: -50px 30px 0 250px;
+    align-items: center;
+   }
+   
+header{
+    font-size: 1.5rem;
+}
+   
+ nav, a, img{
+    font-size: 60%;
+    max-width: 50vw;
+    text-align: left;
+  }
+
+   h1, p, a {
+    margin: 0;
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+  body{
+    background: #fdcc04;
+    box-sizing: content-box;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 500px){
+    
+      
+}
+  
