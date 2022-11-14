@@ -215,7 +215,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 560px){
    html {
     flex-direction: column;
     
@@ -239,7 +239,7 @@ header{
    
  nav, a, img{
     font-size: 60%;
-    max-width: 90vw;
+    max-width: 80vw;
     text-align: left;
   }
 
