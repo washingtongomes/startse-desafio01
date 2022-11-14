@@ -239,7 +239,7 @@ header{
    
  nav, a, img{
     font-size: 60%;
-    max-width: 80vw;
+    max-width: 60vw;
     text-align: left;
   }
 
@@ -258,8 +258,5 @@ header{
 
 
 
-@media screen and (max-width: 500px){
-    
-      
-}
+
   
