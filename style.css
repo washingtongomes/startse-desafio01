@@ -215,7 +215,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 500px){
    html {
     flex-direction: column;
     
