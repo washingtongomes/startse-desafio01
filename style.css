@@ -215,7 +215,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
    html {
     flex-direction: column;
     
@@ -223,13 +223,13 @@ textarea {
     
    a#form-button{
     position: absolute;
-    margin: -50px -150px ;
+    margin: -50px -80px ;
     align-items: initial;
    }
 
    input#form-button{
     position: absolute;
-    margin: -50px 30px 0 250px;
+    margin: -50px 30px 0 210px;
     align-items: center;
    }
    
